@@ -23,7 +23,7 @@ const startServer = async () => {
   try {
     await connectDB(process.env.MONGODB_URL);
     app.listen(8080, () => {
-      console.log("Server listening on port 8080!");
+      console.log("Server listening https://aimage-l1za.onrender.com");
     });
   } catch (err) {
     console.log(err);
